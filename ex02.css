@@ -1,0 +1,35 @@
+.navigation-bar{
+    display: flex;
+    background-color: plum;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.navigate{
+    
+    color: black;
+    margin: 20px;
+}
+
+.featured{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    margin: 80px;
+}
+
+.featured > .information{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    height: 200px;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 100px;
+}
