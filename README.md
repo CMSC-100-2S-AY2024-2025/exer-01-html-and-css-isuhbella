@@ -2,7 +2,7 @@
 
 Name: Isabella T. Suitado<br>
 Degree Program: BS Computer Science<br>
-Live website link:  https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-isuhbella/ <br><br>
+Live website link: https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-isuhbella/ <br><br>
 
 Steps on how to create a GitHub Pages:
 1. Go to settings and then select Pages
