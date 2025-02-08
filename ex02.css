@@ -1,35 +1,153 @@
-.navigation-bar{
-    display: flex;
-    background-color: plum;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
+
+body{
+    background-color:ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navigate{
-    
+header{
     color: black;
-    margin: 20px;
+    padding: 20px;
 }
 
-.featured{
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    color: darkslateblue;
+    width: 100vw;
+
+}
+
+.navbar{
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-around;
     align-items: center;
-    margin: 80px;
+}
+.container{
+    display: grid;
+    grid-template-rows: 95% 5%;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 300px;
 }
 
-.featured > .information{
+.container2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    background-color:  rgb(224, 226, 230);;
+    border: none solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container3{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.educ{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.myname{
+    font-size: 30px;
+    color: darkslategray;
+}
+.name{
+    font-size: 40px;
+    color: navy;
+}
+
+.info1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoabout{
+    font-size: 15px;
+}
+.title1{
+    font-size: 40px;
+    color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    font-size: 15px;
+}
+
+.list{
+    font-size: 15px;
+}
+
+.row1{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+
+.row2{
+    flex-direction: column;
     display: flex;
     justify-content: flex-start;
-    margin-left: 100px;
-    height: 200px;
-    flex-direction: column;
+    align-items: center;
 }
 
-.info{
+.werk, .contact{
     display: flex;
-    margin-top: 10px;
-    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lwork, .mwork, .rwork{
+    background-color:  rgb(224, 226, 230);;
+    border: none solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mypic{
+    height:400px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.partypic, .frogpic, .petspic{
+    height: 250px;
+    width: 300px;
+    justify-content: center;
+    margin: 30px;
 }
